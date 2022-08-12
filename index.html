@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MamusiaLejeu Website Project</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/Responsive/responsive.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $("#button").click(function () {
+          $("#create_account_overlay").show();
+        });
+        $("#create_account_overlay").click(function () {
+          $("#create_account_overlay").hide();
+        });
+        $("#toogle_menu").click(function () {
+          $("#main_page_menu").show();
+        });
+        $("#close").click(function () {
+          $("#main_page_menu").hide();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <section class="section bg-black min-h-screen overflow-hidden">
+      <header>
+        <nav class="flex items-center justify-between">
+          <div>
+            <img src="./assets/images/logo/logo.jpg" alt="" />
+            <button class="toogle_menu" id="toogle_menu"><i class='bx bx-menu-alt-right'></i></button>
+          </div>
+
+          <ul class="flex text-white space-x-8 items-center main_page_menu" id="main_page_menu">
+            <div class="close" id="close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="close"><rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"/><path d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29-4.3 4.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l4.29-4.3 4.29 4.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z"/></g></g></svg>
+            </div>
+            <li>
+              <a href="./GamePage.html">Game</a>
+            </li>
+            <li>
+              <a href="">Profil</a>
+            </li>
+            <li>
+              <a href="">Achat</a>
+            </li>
+            <li>
+              <a
+                id="button"
+                class="button cursor-pointer border flex items-center border-solid border-white py-3 px-8 rounded-full hover:bg-white transition-all hover:text-gray-900"
+                >Create an account
+                <i class='bx bx-right-arrow-alt ml-2'></i>
+              </a>
+            </li>
+            <li>
+              <div class="flex flex-col items-center mt-4 main_profile">
+                <div class="relative">
+                  <img
+                    src="./assets/images/others/user.jpg"
+                    class="login_user cursor-pointer relative"
+                    alt=""
+                  />
+                  <div
+                    class="w-4 h-4 bg-green-600 rounded-full absolute right-0 bottom-0"
+                  ></div>
+                </div>
+                <div class="relative top-3 pt-2">
+                  <h6 class="text-center">Angel Moon</h6>
+                </div>
+              </div>
+            </li>
+          </ul>
+        
+        </nav>
+      </header>
+
+      <!-- Section One Code Start Here -->
+      <section class="setion_one">
+        <div class="flex justify-between items-center pl-8 pr-8 pt-16 _p_0_i_9">
+          <div>
+            <h1 class="text-5xl text-white font-bold graph">
+              Vel sed ut neque, rutrum <br />
+              tellus, pretium.
+            </h1>
+            <p class="text-white para">
+              Sit tellus turpis eu nunc vitae et pulvinar vitae interdum vitae
+              proin sagittis duis <br />
+              tristique risus, netus pulvinar in amet odio tempor sit dictum
+              adipiscing mattis a, <br />
+              at amet, suspendisse enim pretium,
+            </p>
+            <button
+              class="border border-white rounded-full text-white px-12 mt-4 py-3 hover:bg-white flex items-center hover:text-gray-900 transition-all"
+            >
+              View Game <i class="bx bx-right-arrow-alt ml-3"></i>
+            </button>
+          </div>
+          <div>
+            <img
+              src="./assets/images/others/one.jpg"
+              class="one_image object-cover rounded"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Section One Code End Here -->
+
+      <!-- Section Two Code Start Here -->
+
+      <section class="section_two">
+        <div class="flex justify-center pt-20">
+          <img src="./assets/images/logo/logo.jpg" alt="" />
+        </div>
+        <div class="flex justify-center pt-20 bo_lonks">
+          <ul class="flex text-white items-center space-x-16 bottom_links">
+            <li>
+              <a href="./GamePage.html">Game</a>
+            </li>
+            <li>
+              <a href="">Profile</a>
+            </li>
+            <li>
+              <a href="">Success</a>
+            </li>
+            <li>
+              <a href="">Options</a>
+            </li>
+            <li>
+              <a href="">History</a>
+            </li>
+            <li>
+              <a href="">Ranking</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex justify-center pt-10 space-x-10">
+          <div>
+            <div
+              class="w-10 h-10 flex justify-center items-center cursor-pointer rounded-full social_icon"
+            >
+              <i class="bx bxl-facebook text-white"></i>
+            </div>
+          </div>
+          <div>
+            <div
+              class="w-10 h-10 flex justify-center items-center cursor-pointer rounded-full social_icon"
+            >
+              <i class="bx bxl-instagram text-white"></i>
+            </div>
+          </div>
+          <div>
+            <div
+              class="w-10 h-10 flex justify-center items-center cursor-pointer rounded-full social_icon"
+            >
+              <i class="bx bxl-linkedin text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center pt-10">
+          <span class="text-center text-white copyRight"
+            >Copyright © 2022 Angel Moon. All rights reserved.</span
+          >
+        </div>
+      </section>
+    </section>
+
+    <div
+      class="create_account_overlay fixed top-0 left-0 w-full bottom-0 right-0"
+      id="create_account_overlay"
+    >
+      <div class="box_c_account flex justify-center items-center">
+        <div class="flex flex-col items-center">
+          <h1 class="text-4xl text-center mb-4">A blandit faucibus</h1>
+          <p class="text-center">
+            Id aliquam tincidunt interdum mi, in sodales porttitor gravida eu
+            neque, at volutpat sit <br />
+            neque, blandit sit interdum neque, at sagittis arcu lectus arcu sit
+            mattis morbi pulvinar <br />
+            dictumst vitae
+          </p>
+          <button class="flex items-center justify-center">
+            Create an Account <i class="bx bx-right-arrow-alt ml-3"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

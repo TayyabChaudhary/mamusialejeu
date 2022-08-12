@@ -1,0 +1,489 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+  @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) {
+ /* CSS */
+ ._right_arrow i {
+    position: absolute;
+    left: 58rem!important;
+}
+  }
+
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+    .message_input {
+        width: 665px;
+    }
+    .toogle_menu {
+        display: block;
+        border: 0;
+        outline: none;
+        position: absolute;
+        top: 21px;
+        right: 5px;
+        
+    }
+
+
+    ._right_arrow i {
+        position: absolute;
+        left: 42rem;
+    }
+    .main_page_menu {
+        align-items: center;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0%;
+        background: #fff;
+        color: #333;
+        width: 100%;
+        min-height: 100vh;
+        display: none;
+    padding-top: 32px;
+    padding-left: 10px;
+    padding-right: 18px;
+
+    }
+    .main_page_menu li{
+        text-align:  center;
+        margin-left: 0px!important;
+        
+    }
+    .main_page_menu li a{
+        line-height: 60px
+    }
+    #button {
+        border: 1px solid #ccc;
+        /* padding: 3px; */
+        padding-bottom: 0px;
+        padding-top: 0px;
+        justify-content: center;
+    }
+
+    .close{
+        position: absolute;
+        top: 13px;
+        right: 15px;
+    }
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+    ._right_arrow i {
+        position: absolute;
+        left: 55rem;
+    }
+    .toogle_menus {
+        display: block;
+        border: 0;
+        outline: none;
+        position: absolute;
+        top: 21px;
+        right: 5px;
+        
+    }
+
+    .main_page_menu {
+        align-items: center;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0%;
+        background: #fff;
+        color: #333;
+        width: 100%;
+        min-height: 100vh;
+        display: none;
+    padding-top: 32px;
+    padding-left: 10px;
+    padding-right: 18px;
+
+    }
+    .main_page_menu li{
+        text-align:  center;
+        margin-left: 0px!important;
+        
+    }
+    .main_page_menu li a{
+        line-height: 60px
+    }
+    #button {
+        border: 1px solid #ccc;
+        /* padding: 3px; */
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .close{
+        position: absolute;
+        top: 13px;
+        right: 15px;
+    }
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+    ._p_0_i_9 {
+        display: block;
+    }
+
+    .graph {
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+
+    .para {
+        font-size: 24px !important;
+    }
+
+    .one_image {
+        margin-block-start: 26px;
+    }
+
+    .bo_lonks {
+        padding-top: 8px;
+    }
+
+    .bottom_links {
+        display: flex;
+        align-items: center;
+        line-height: 33px;
+
+    }
+
+    .bottom_links li {
+        margin-left: 0px !important;
+    }
+
+    .bottom_links li a {
+        padding-left: 20px;
+    }
+    .main_page_menu li a {
+        display: block;
+    }
+    .main_page_menu .main_profile {
+        display: none;
+    }
+    .toogle_menu {
+        display: block;
+        border: 0;
+        outline: none;
+        position: absolute;
+        top: 21px;
+        right: 5px;
+    }
+
+    /* Game Page */
+    .message_input {
+        width: 510px;
+    }
+
+    .game_links_nav {
+        display: block;
+        position: fixed;
+        z-index: 2;
+        background: #fff;
+        color: #333;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        min-height: 100vh;
+        padding-top: 43px;
+        padding-left: 0rem;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        
+    }
+    .game_links_nav  li{
+        line-height: 40px;
+        margin-left: 0px!important;
+        text-align: center;
+    }
+
+    ._right_arrow i {
+        left: 28rem;
+    }
+
+    .sectionss {
+        display: block;
+    }
+
+    .slider_image .apao {
+        left: 10%;
+    }
+
+    .profile_action {
+        display: none;
+    }
+    .main_page_menu {
+        align-items: center;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0%;
+        background: #fff;
+        color: #333;
+        width: 100%;
+        min-height: 100vh;
+        display: none;
+    padding-top: 32px;
+    padding-left: 10px;
+    padding-right: 18px;
+
+    }
+    .main_page_menu li{
+        text-align:  center;
+        margin-left: 0px!important;
+        
+    }
+    .main_page_menu li a{
+        line-height: 60px
+    }
+    #button {
+        border: 1px solid #ccc;
+        /* padding: 3px; */
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .close{
+        position: absolute;
+        top: 11px;
+        right: 15px;
+    }
+    .toogle_menus{
+        display: block;
+        border: 0;
+        outline: none;
+        position: absolute;
+        top: 21px;
+        right: 20px;
+    }
+
+    .toogle_menus i{
+        color: #fff;
+        font-size: 40px;
+
+    }
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    ._p_0_i_9 {
+        display: block;
+    }
+
+    .graph {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .para {
+        font-size: 14px !important;
+    }
+
+    .one_image {
+        margin-block-start: 26px;
+    }
+
+    .bo_lonks {
+        padding-top: 8px;
+    }
+
+    .bottom_links {
+        display: block;
+        align-items: center;
+        line-height: 33px;
+
+    }
+
+    .bottom_links li {
+        margin-left: 0px !important;
+    }
+
+
+    /* Game Page */
+    .game_links_nav {
+        display: block;
+        position: fixed;
+        z-index: 2;
+        background: #fff;
+        color: #333;
+        width: 100%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        min-height: 100vh;
+        padding-top: 106px;
+        padding-left: 0rem;
+        display: flex;
+        flex-direction: column;
+        display: none;
+        
+    }
+    .game_links_nav  li{
+        line-height: 40px;
+        margin-left: 0px!important;
+        text-align: center;
+    }
+
+    .sectionss {
+        display: block;
+    }
+
+    .slider_image .apao {
+        left: 0%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(0, 0);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        width: 100%;
+        overflow: hidden;
+    }
+
+    ._right_arrow i {
+      position: absolute;
+        left: 16rem;
+    }
+
+    .message_input {
+        width: 290px;
+    }
+
+    .g_h {
+        font-size: 30px !important;
+        margin-top: 24px;
+    }
+
+    .img_Image {
+        width: 100%;
+        background-position: center;
+    }
+
+    .main_page_menu li a {
+        display: block;
+    }
+    .main_page_menu .main_profile {
+        display: none;
+    }
+
+     .toogle_menu {
+        display: block;
+        border: 0;
+        outline: none;
+        position: absolute;
+        top: 21px;
+        right: 5px;
+        
+    }
+
+    .main_page_menu {
+        align-items: center;
+        vertical-align: middle;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0%;
+        background: #fff;
+        color: #333;
+        width: 100%;
+        min-height: 100vh;
+        display: none;
+    padding-top: 126px;
+    padding-left: 10px;
+    padding-right: 18px;
+
+    }
+    .main_page_menu li{
+        text-align:  center;
+        margin-left: 0px!important;
+        
+    }
+    .main_page_menu li a{
+        line-height: 60px
+    }
+    #button {
+        border: 1px solid #ccc;
+        /* padding: 3px; */
+        padding-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .close{
+        position: absolute;
+        top: 13px;
+        right: 15px;
+    }
+
+
+
+    .toogle_menus{
+        display: block;
+        border: 0;
+        outline: none;
+        position: absolute;
+        top: 21px;
+        right: 20px;
+    }
+
+    .toogle_menus i{
+        color: #fff;
+        font-size: 40px;
+
+    }
+}

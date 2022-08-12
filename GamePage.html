@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Game Page MamusiaLejeu Website Project</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/GamePage.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/Responsive/responsive.css" />
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+    <script>
+      $(document).ready(function () {
+        $("#toogle_menus").click(function () {
+          $("#main_page_menus").show();
+        });
+        $("#close").click(function () {
+          $("#main_page_menus").hide();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <main class="gamming_section minh-scren min-h-screen overflow-hodden">
+      <header>
+        <nav class="flex items-center justify-between">
+          <div>
+            <img src="./assets/images/logo/logo.jpg" alt="" />
+            <button class="toogle_menus" id="toogle_menus"><i class='bx bx-menu-alt-right'></i></button>
+          </div>
+
+          <ul class="flex text-white space-x-8 items-center game_links_nav" id="main_page_menus">
+            <div class="close" id="close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="close"><rect width="24" height="24" transform="rotate(180 12 12)" opacity="0"/><path d="M13.41 12l4.3-4.29a1 1 0 1 0-1.42-1.42L12 10.59l-4.29-4.3a1 1 0 0 0-1.42 1.42l4.3 4.29-4.3 4.29a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0l4.29-4.3 4.29 4.3a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42z"/></g></g></svg>
+            </div>
+            <li>
+              <a href="" class="active">Game</a>
+            </li>
+            <li>
+              <a href="">Profile</a>
+            </li>
+            <li>
+              <a href="">Success</a>
+            </li>
+            <li>
+              <a href="">Options</a>
+            </li>
+            <li>
+              <a href="">History</a>
+            </li>
+            <li>
+              <a href="">Ranking</a>
+            </li>
+            <li>
+              <div class="flex flex-col items-center mt-4 profile_action">
+                <div class="relative">
+                  <img
+                    src="./assets/images/others/user.jpg"
+                    class="login_user cursor-pointer relative"
+                    alt=""
+                  />
+                  <div
+                    class="w-4 h-4 bg-green-600 rounded-full absolute right-0 bottom-0"
+                  ></div>
+                </div>
+                <div class="relative top-3 pt-2">
+                  <h6 class="text-center">Angel Moon</h6>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Sections -->
+      <section>
+        <div class="flex justify-center pt-8">
+          <h1 class="text-white text-4xl font-bold">Tortor justo, aliquam</h1>
+        </div>
+
+        <div class="flex items-center pt-10 sectionss">
+          <div>
+            <img
+              src="./assets/images/others/one.jpg"
+              class="images_one"
+              alt=""
+            />
+          </div>
+          <div class="pl-8">
+            <h1 class="text-white text-5xl g_h mb-6">
+              Vitae sit feugiat quam sit <br />
+              quis platea
+            </h1>
+            <p class="text-white g_p font-normal">
+              Nisi, ultricies platea a nisl a ultrices lobortis vitae
+              ullamcorper sagittis <br />
+              vulputate at nunc, pretium lacus mollis diam, a porta egestas
+              viverra enim <br />
+              dignissim sem quisque duis malesuada vitae bibendum consectetur
+              amet <br />
+              eget viverra ultricies nunc malesuada aenean vestibulum, non lorem
+              <br />
+              tempor etiam nisl id in tellus sed nisl ultrices
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-between items-center sectionss pt-0">
+          <div class="pl-8 pr-8">
+            <h1 class="text-white text-5xl g_h mb-6">
+              Erat egestas accumsan <br />
+              neque, aliquam mi ultrices
+            </h1>
+            <p class="text-white g_p font-normal">
+              Nisi, ultricies platea a nisl a ultrices lobortis vitae
+              ullamcorper sagittis <br />
+              vulputate at nunc, pretium lacus mollis diam, a porta egestas
+              viverra enim <br />
+              dignissim sem quisque duis malesuada vitae bibendum consectetur
+              amet <br />
+              eget viverra ultricies nunc malesuada aenean vestibulum, non lorem
+              <br />
+              tempor etiam nisl id in tellus sed nisl ultrices
+            </p>
+          </div>
+          <div>
+            <img
+              src="./assets/images/others/one.jpg"
+              class="images_one"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="flex items-center pt-0 sectionss">
+          <div class="relative">
+            <img
+              src="./assets/images/others/one.jpg"
+              class="images_one relative"
+              alt=""
+            />
+            <div>
+              <img
+                src="./assets/images/others/audio.png"
+                class="absolute song_audio_iage"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="pl-8">
+            <h1 class="text-white text-5xl g_h mb-6">
+              Diam hendrerit tempor, <br />
+              purus vitae sollicitudin et
+            </h1>
+            <p class="text-white g_p font-normal">
+              Nisi, ultricies platea a nisl a ultrices lobortis vitae
+              ullamcorper sagittis <br />
+              vulputate at nunc, pretium lacus mollis diam, a porta egestas
+              viverra enim <br />
+              dignissim sem quisque duis malesuada vitae bibendum consectetur
+              amet <br />
+              eget viverra ultricies nunc malesuada aenean vestibulum, non lorem
+              <br />
+              tempor etiam nisl id in tellus sed nisl ultrices
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--  -->
+
+      <section>
+        <div class="flex justify-center pt-10">
+          <h1 class="text-white text-2xl font-medium">
+            Amet sit velit, massa leo lobortis amet
+          </h1>
+        </div>
+        <div class="flex justify-center mt-8">
+          <div class="img_Image"></div>
+        </div>
+        <div class="flex justify-center mt-24">
+          <div class="flex flex-col">
+            <input
+              type="text"
+              class="message_input bg-transparent outline-none text-white pb-5"
+              placeholder="propose an answer......"
+            />
+            <button class="py-3 px-10 bg-white submit_btn mt-8 rounded-full">
+              Submit
+            </button>
+          </div>
+        </div>
+
+        <div class="flex justify-center mt-20">
+          <button
+            class="border border-white rounded-full py-3 flex items-center px-16 text-white hover:bg-white hover:text-gray-900"
+          >
+            Ask for a Hint
+            <i class="bx bx-right-arrow-alt ml-4"></i>
+          </button>
+        </div>
+
+        <div class="flex justify-center mt-10">
+          <div class="slider_image relative">
+            <div class="flex justify-between apao">
+              <div>
+                <i class="bx bx-chevron-left text-white"></i>
+              </div>
+              <div class="_right_arrow">
+                <i class="bx bx-chevron-right text-white"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="bg-black overflow-hidden p-8">
+      <section class="section_two">
+        <div class="flex justify-center pt-20">
+          <img src="./assets/images/logo/logo.jpg" alt="" />
+        </div>
+        <div class="flex justify-center pt-20 bo_lonks">
+          <ul class="flex text-white items-center space-x-16 bottom_links">
+            <li>
+              <a href="">Game</a>
+            </li>
+            <li>
+              <a href="">Profile</a>
+            </li>
+            <li>
+              <a href="">Success</a>
+            </li>
+            <li>
+              <a href="">Options</a>
+            </li>
+            <li>
+              <a href="">History</a>
+            </li>
+            <li>
+              <a href="">Ranking</a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex justify-center pt-10 space-x-10">
+          <div>
+            <div
+              class="w-10 h-10 flex justify-center items-center cursor-pointer rounded-full social_icon"
+            >
+              <i class="bx bxl-facebook text-white"></i>
+            </div>
+          </div>
+          <div>
+            <div
+              class="w-10 h-10 flex justify-center items-center cursor-pointer rounded-full social_icon"
+            >
+              <i class="bx bxl-instagram text-white"></i>
+            </div>
+          </div>
+          <div>
+            <div
+              class="w-10 h-10 flex justify-center items-center cursor-pointer rounded-full social_icon"
+            >
+              <i class="bx bxl-linkedin text-white"></i>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center pt-10">
+          <span class="text-center text-white copyRight"
+            >Copyright © 2022 Angel Moon. All rights reserved.</span
+          >
+        </div>
+      </section>
+    </div>
+
+    <script src="" async defer></script>
+  </body>
+</html>
